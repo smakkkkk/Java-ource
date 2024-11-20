@@ -1,0 +1,11 @@
+# свойства для подключения к базе данных
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/contacts
+    username: postgres
+    password: postgres
+    hikari:
+      schema: contacts_schema
+    driver-class-name: org.postgresql.Driver
+#logging.level.root: DEBUG
+
