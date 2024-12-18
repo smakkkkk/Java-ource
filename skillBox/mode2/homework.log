@@ -1,0 +1,4 @@
+1730313926137:add-student --firstName "Имя" --lastName "Фамилия" --age 20
+1730313944268:list-students
+1730313964025:remove-student --id 1
+1730313978260:clear-students
